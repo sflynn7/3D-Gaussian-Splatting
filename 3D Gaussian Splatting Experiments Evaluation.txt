@@ -1,0 +1,77 @@
+L1: loss function for measuring error rates
+PSNR: Peak Signal-to-Noise Ratio
+	- how different two images are in terms of pixel values
+	- compare two images pixel-by-pixel and measure how much "error" or "noise" there is
+	- higher = better (typically 20-40+ dB for good results)
+
+SSIM: Structural Similarity Index Measure
+	- evaluates structural similarity between two images, considering luminance, contrast, and structure
+	- range: 0-1, 1 = perfect similarity
+	- higher = better (typically 0.8-1 for good results)
+
+LPIPS: Learned Perceptual Image Patch Similarity
+	- how different two images look to a deep learning model that imitates human vision
+	- lower = better (typically 0.0-0.5 for good results)
+	- often the most important metric because it correlates best with human judgement
+
+desk_45deg_5s_1080_eval
+
+SSIM :    0.8815230
+PSNR :   26.8947124
+LPIPS:    0.1592130
+
+desk_45deg_10s_1080_eval
+
+SSIM :    0.4907015
+PSNR :    8.4626532
+LPIPS:    0.5545984
+
+desk_360deg_10s_1080_eval
+
+SSIM :    0.6243808
+PSNR :   21.8616600
+LPIPS:    0.4243847
+
+desk_360deg_30s_1080_eval
+
+SSIM :    0.8947182
+PSNR :   31.3442593
+LPIPS:    0.1687618
+
+desk_360deg_100s_4K_eval
+
+SSIM :    0.9491711
+PSNR :   34.2923126
+LPIPS:    0.0920950
+
+desk_360deg_103s_4K_eval
+
+SSIM :    0.9493119
+PSNR :   34.2722969
+LPIPS:    0.0917086
+
+desk_360deg_103s_4K_0.5x_eval
+
+SSIM :    0.9349865
+PSNR :   33.0114822
+LPIPS:    0.1065731
+
+
+desk_pictures_0.5x_eval - Not enough images.
+RuntimeError: Function _RasterizeGaussiansBackward returned an invalid gradient at index 2 - got [0, 0, 3] but expected shape compatible with [0, 16, 3]
+
+desk_pictures_1x_eval - Not enough images.
+RuntimeError: Function _RasterizeGaussiansBackward returned an invalid gradient at index 2 - got [0, 0, 3] but expected shape compatible with [0, 16, 3]
+
+
+fan_360deg_74s_1080_eval
+
+SSIM :    0.8299308
+PSNR :   25.3762150
+LPIPS:    0.1982320
+
+tea_bottle_13s_1080_eval
+
+SSIM :    0.9723972
+PSNR :   36.8714371
+LPIPS:    0.1014823

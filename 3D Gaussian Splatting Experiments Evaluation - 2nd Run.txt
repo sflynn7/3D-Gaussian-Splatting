@@ -1,0 +1,61 @@
+desk_45deg_5s_1080_eval_2
+
+  SSIM :    0.4341676
+  PSNR :   13.7430944
+  LPIPS:    0.5008292
+
+desk_45deg_10s_1080_eval_2
+
+  SSIM :    0.4206857
+  PSNR :    4.5120845
+  LPIPS:    0.6111523
+
+desk_360deg_10s_1080_eval_2
+
+  SSIM :    0.6162771
+  PSNR :   20.5403671
+  LPIPS:    0.4419752
+
+desk_360deg_30s_1080_eval_2
+
+  SSIM :    0.8983728
+  PSNR :   32.0032501
+  LPIPS:    0.1679516
+
+desk_360deg_100s_4K_eval_2
+
+  SSIM :    0.9490442
+  PSNR :   34.2434769
+  LPIPS:    0.0919358
+
+desk_360deg_103s_4K_eval_2
+
+  SSIM :    0.9135417
+  PSNR :   30.0759468
+  LPIPS:    0.1081727
+
+desk_360deg_103s_4K_0.5x_eval_2
+
+  SSIM :    0.9346933
+  PSNR :   32.9868698
+  LPIPS:    0.1075614
+
+desk_pictures_0.5x_eval_2 - Not enough images.
+RuntimeError: Function _RasterizeGaussiansBackward returned an invalid gradient at index 2 - got [0, 0, 3] but expected shape compatible with [0, 16, 3]
+
+desk_pictures_1x_eval_2 - Not enough images.
+RuntimeError: Function _RasterizeGaussiansBackward returned an invalid gradient at index 2 - got [0, 0, 3] but expected shape compatible with [0, 16, 3]
+
+
+fan_360deg_74s_1080_eval_2
+
+  SSIM :    0.8309803
+  PSNR :   25.5183258
+  LPIPS:    0.1971080
+
+tea_bottle_13s_1080_eval_2
+
+  SSIM :    0.9723020
+  PSNR :   36.5479393
+  LPIPS:    0.1018506
+
